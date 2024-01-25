@@ -33,8 +33,8 @@ public class UserServiceTest {
             userService.createUsersTable();
         } catch (Exception e) {
             Assert.fail("При тестировании создания таблицы пользователей произошло исключение\n" + e.getMessage());
-        }
-    }
+        }    }
+
 
     @Test
     public void saveUser() {
